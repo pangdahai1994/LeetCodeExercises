@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <map>
 #include "iostream"
 #include <vector>
 
@@ -6,14 +7,16 @@ using namespace std;
 class Solution {
 public:
 	vector<int> twoSum(vector<int>& nums, int target) {
+		vector<int> vec;
+		map<int,int> map;
 		for (int j = 0; j < nums.size(); j++) {
-			for (int k = j + 1; k < nums.size(); k++) {
-				if (nums.at(k) + nums.at(j) == target) {
-					vector<int> vec;
-					vec.push_back(j);
-					vec.push_back(k);
-					return(vec);
-				}
+			map[nums[j]] = j;
+		}
+		for (int j = 0; j < map.size(); j++) {
+			if (map.find(target - nums[j]) != map.end() && map[target - nums[j]]!=j) {
+				vec.push_back(j);
+				vec.push_back(map[target - nums[j]]);
+				return(vec);
 			}
 		}
 	}
