@@ -24,7 +24,6 @@ namespace My036_Valid_Sudoku_UnitTest
 			}
 			Assert::AreEqual(solution.isValidSudoku(board),true);
 			Logger::WriteMessage("testDivide() finish testing!\n");
-			system("pause");
 		}
 
 	};

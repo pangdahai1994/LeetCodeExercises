@@ -149,7 +149,7 @@
   <ItemGroup>
     <ClCompile Include="001_Two_Sum.cpp" />
     <ClCompile Include="036_Valid_Sudoku.cpp" />
-    <ClCompile Include="036_Valid_Sudoku_test.cpp" />
+    <ClCompile Include="050_Pow.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

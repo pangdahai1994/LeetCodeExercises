@@ -21,7 +21,7 @@
     <ClCompile Include="036_Valid_Sudoku.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="036_Valid_Sudoku_test.cpp">
+    <ClCompile Include="050_Pow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
