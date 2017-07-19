@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCodeExercises", "TwoSum\TwoSum.vcxproj", "{F56690CB-8B13-4167-9FC2-72989ACF87F7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercises", "Exercises\TwoSum.vcxproj", "{F56690CB-8B13-4167-9FC2-72989ACF87F7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCodeExercises_UnitTest", "036_Valid_Sudoku_UnitTest\036_Valid_Sudoku_UnitTest.vcxproj", "{8A40BB56-2677-4866-AD62-D4311B0A2738}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\036_Valid_Sudoku_UnitTest.vcxproj", "{8A40BB56-2677-4866-AD62-D4311B0A2738}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
