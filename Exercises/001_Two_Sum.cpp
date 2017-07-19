@@ -21,12 +21,3 @@ public:
 		}
 	}
 };
-int main() {
-	vector<int> vec;
-	vec.push_back(7);
-	vec.push_back(6);
-	vec.push_back(5);
-	Solution* s = new Solution();
-	cout<<s->twoSum(vec,12).at(0);
-	delete s;
-}
