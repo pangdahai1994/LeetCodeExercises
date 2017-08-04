@@ -1,3 +1,6 @@
+#define Ex_begin(ex_name) namespace ex_name{
+#define Ex_end }
+
 #include <stdio.h>
 #include <map>
 #include "iostream"

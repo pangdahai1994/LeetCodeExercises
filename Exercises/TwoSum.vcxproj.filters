@@ -24,5 +24,32 @@
     <ClCompile Include="050_Pow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="034_Search_for_a_Range.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="037_Soduku_Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hiho0723.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hiho0723_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_head.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="026_Remove_Duplicates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="029_DivideTwoIntegers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="004_MedianOfTwoSortedArraies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

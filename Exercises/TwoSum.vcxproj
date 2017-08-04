@@ -22,7 +22,7 @@
     <ProjectGuid>{F56690CB-8B13-4167-9FC2-72989ACF87F7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TwoSum</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
     <ProjectName>Exercises</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -72,6 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <TargetExt>.dll</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -148,8 +149,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="001_Two_Sum.cpp" />
+    <ClCompile Include="004_MedianOfTwoSortedArraies.cpp" />
+    <ClCompile Include="026_Remove_Duplicates.cpp" />
+    <ClCompile Include="029_DivideTwoIntegers.cpp" />
+    <ClCompile Include="034_Search_for_a_Range.cpp" />
     <ClCompile Include="036_Valid_Sudoku.cpp" />
+    <ClCompile Include="037_Soduku_Solver.cpp" />
     <ClCompile Include="050_Pow.cpp" />
+    <ClCompile Include="ex_head.h" />
+    <ClCompile Include="hiho0723_2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="hiho0723.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
