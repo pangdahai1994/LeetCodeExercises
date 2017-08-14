@@ -22,4 +22,21 @@ namespace My036_Valid_Sudoku_UnitTest
 		}
 
 	};
+
+	TEST_CLASS(Test2)
+	{
+	public:
+
+		TEST_METHOD(hiho0806Test)
+		{
+			Solution solution;
+			int i1 = -2147483647 - 1;
+			int i2 = -1;
+
+			int res = solution.divide(i1, i2);
+			Assert::AreEqual(res, i1 / i2);
+			Logger::WriteMessage("testDivide() finish testing!\n");
+		}
+
+	};
 }

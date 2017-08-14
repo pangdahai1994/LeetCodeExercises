@@ -155,6 +155,8 @@
   <ItemGroup>
     <ClCompile Include="029Test.cpp" />
     <ClCompile Include="037_Solve_Sudoku_test.cpp" />
+    <ClCompile Include="039test.cpp" />
+    <ClCompile Include="042_Trapping Rain Water_test.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

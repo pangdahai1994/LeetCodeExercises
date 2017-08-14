@@ -155,9 +155,12 @@
     <ClCompile Include="034_Search_for_a_Range.cpp" />
     <ClCompile Include="036_Valid_Sudoku.cpp" />
     <ClCompile Include="037_Soduku_Solver.cpp" />
+    <ClCompile Include="039_CombinationSum .cpp" />
+    <ClCompile Include="042_Trapping Rain Water.cpp" />
     <ClCompile Include="050_Pow.cpp" />
     <ClCompile Include="ex_head.h" />
     <ClCompile Include="hiho0723_2.cpp" />
+    <ClCompile Include="hiho0806_1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="hiho0723.cpp" />
   </ItemGroup>

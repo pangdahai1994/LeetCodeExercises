@@ -51,5 +51,14 @@
     <ClCompile Include="004_MedianOfTwoSortedArraies.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="hiho0806_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="039_CombinationSum .cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="042_Trapping Rain Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
